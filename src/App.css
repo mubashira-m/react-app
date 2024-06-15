@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header{
+  font-weight: 600;
+  font-size: xx-large;
+  border: 2px solid;
+  background-color: rgb(145, 128, 184);
   color: white;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.formHeader{
+  margin-left: 12px;
+  padding-block: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-contact{
+  font-size: large;
+  font-weight: 400;
+  font-family: fantasy;
+  margin-left: 12px;
+}
+input{
+  margin-bottom: 5px;
+}
+.contacts{
+display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  padding: 5px;
+  background: rgb(239, 232, 247);
+  margin-bottom: 2px;
+  margin-left: 12px;
+  margin-right: 5px;
+}
+.email{
+font-size: medium;
+}
+.btn{
+  border-color:rgb(51, 51, 104) ;
+  background-color:rgb(31, 31, 73) ;
+  color: white;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 400;
+ 
+}
+.contactsHeader{
+  font-size: medium;
+  font-family:system-ui ;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+.user{
+  display: flex;
+}
+.icon{
+  padding: 10px;
 }
